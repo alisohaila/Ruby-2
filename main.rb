@@ -27,7 +27,7 @@ while true
 end
 
 while true
-    print "2. What is a float in Python, JavaScript, Java, and Ruby? (Even Number/Decimal Number) "
+    print "2. What is a float in Python, JavaScript, Java, and Ruby? (Even Number/Decimal Number): "
     question = gets.chomp.downcase
     if question == "decimal number"
         puts "Correct! 1+ "
